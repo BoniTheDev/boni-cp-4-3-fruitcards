@@ -1,0 +1,92 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 45px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 80vw;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  padding: 8px;
+  flex-grow: 1;
+}
+.heading {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 900;
+  font-family: 'Roboto';
+  padding-top: 25px;
+}
+.fruit-container {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+@media screen and (max-width: 767px) {
+  .fruit-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .heading {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Roboto';
+    padding-top: 25px;
+  }
+}
+.image-size {
+  height: 200px;
+  width: 150px;
+}
+
+.mango-card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.banana-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.button {
+  height: 25px;
+  width: 110px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.spanEl {
+  color: #ffd569;
+}
